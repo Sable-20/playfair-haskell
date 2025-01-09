@@ -1,1 +1,0 @@
-# playfair-haskell
