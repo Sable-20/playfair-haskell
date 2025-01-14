@@ -1,2 +1,6 @@
 .stack-work/
 *~
+*.lock
+.DS_Store
+.dist
+dist-*
