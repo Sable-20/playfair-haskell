@@ -10,7 +10,7 @@ chunk str
   | length str `mod` 2 == 0    = DLS.divvy 2 2 str
   | otherwise                  = DLS.divvy 2 2 (str ++ "x")
 
-fill :: [Char] -> [[Char]]
+fill :: [Char] -> [Char]
 fill str
   | even (length str)   = fillEven' str 0
   | otherwise           = fillOdd' str 0
